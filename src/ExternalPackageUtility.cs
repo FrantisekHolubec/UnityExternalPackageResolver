@@ -79,7 +79,7 @@ namespace ExternalPackages
                 if (addedDefines.Count == 0 && removedDefines.Count == 0) 
                     continue;
                 
-                Debug.Log($"[ExternalPackages] Updated defines for {target} +[{string.Join(",", addedDefines)}] -[{string.Join(",", removedDefines)}]");
+                Debug.Log($"[ExternalPackages] Updated defines for {target.TargetName} +[{string.Join(",", addedDefines)}] -[{string.Join(",", removedDefines)}]");
                 PlayerSettings.SetScriptingDefineSymbols(target, definesList.Distinct().ToArray());
             }
         }
