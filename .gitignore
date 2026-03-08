@@ -1,0 +1,22 @@
+# Build output
+bin/
+obj/
+
+# Rider IDE
+.idea/
+*.sln.iml
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.snupkg
+
+# OS files
+.DS_Store
+Thumbs.db
+
